@@ -1,11 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
 import Welcome from './components/Welcome.js'
+import About from './components/About.js'
 
 function App() {
   return (
-    <Welcome />
+    <Route>
+      <Switch>
+        <Welcome exact path='/'/>
+        <About ecact path='/about'/>
+      </Switch>
+
+    </Route>
+
   );
 }
 
