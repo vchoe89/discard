@@ -8,10 +8,14 @@ class About extends React.Component{
 
   render(){
     return(
-      <h1>About</h1>
-      
+      <div>
+        <h1 className='headlines'>About</h1>
+          <i class="material-icons">
+            offline_bolt
+            </i>
+      </div>
     )
   }
 }
 
-export default About
+export default About;
