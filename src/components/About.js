@@ -9,7 +9,7 @@ class About extends React.Component{
         <h1 className='headlines'>About</h1>
         <div>
           <i class="material-icons">
-            offline_bolt
+            speed
             </i>
             <h3>fast</h3>
         </div>
@@ -18,6 +18,12 @@ class About extends React.Component{
             touch_app
             </i>
             <h3>responsive</h3>
+        </div>
+        <div>
+          <i class="material-icons">
+            offline_bolt
+            </i>
+            <h3>dynamic</h3>
         </div>
 
 
