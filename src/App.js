@@ -6,12 +6,12 @@ import './App.css';
 import { Nav } from 'react-bootstrap';
 import Welcome from './components/Welcome.js'
 import About from './components/About.js'
-import Navbar from './components/Navbar.js'
+import Navibar from './components/Navibar.js'
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar fixed='top' />
+      <Navibar fixed='top' />
       <Welcome />
       <About />
     </React.Fragment>

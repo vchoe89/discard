@@ -35,7 +35,7 @@ class About extends React.Component{
           <ProgressBar animated now={50} />
         </div>
         <div id='bar-section'>
-          <h2 id='bar-names'>React.JS</h2>
+          <h2 id='bar-names'>React</h2>
           <ProgressBar animated now={50} />
         </div>
         <div id='bar-section'>
