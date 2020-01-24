@@ -20,7 +20,17 @@
 .App-link {
   color: #09d3ac;
 }
-/* 
+
+.nav-link{
+  font-size: 30px;
+}
+
+#nav-bar{
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+/*
 #welcome-header{
   color: white;
 }
