@@ -7,6 +7,7 @@ import { Nav } from 'react-bootstrap';
 import Welcome from './components/Welcome.js'
 import About from './components/About.js'
 import Navibar from './components/Navibar.js'
+import Projects from './components/Projects.js'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navibar />
       <Welcome />
       <About />
+      <Projects />
     </React.Fragment>
 
   );
