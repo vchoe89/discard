@@ -15,3 +15,13 @@ code {
 #about-page{
   padding-top: 50px;
 }
+
+.nav-link{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+#headlines{
+  text-align: center;
+}
