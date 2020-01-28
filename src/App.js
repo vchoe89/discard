@@ -11,7 +11,7 @@ import Navibar from './components/Navibar.js'
 function App() {
   return (
     <React.Fragment>
-      <Navibar fixed='top' />
+      <Navibar />
       <Welcome />
       <About />
     </React.Fragment>
