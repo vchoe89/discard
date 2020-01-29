@@ -12,21 +12,15 @@ class About extends React.Component{
         <h2 id='welcome-header'>I am a Full Stack Developer.</h2>
           <div id='icon-section'>
             <div id='about-icons'>
-              <i class="material-icons">
-                speed
-                </i>
+              <i class="material-icons">speed</i>
                 <h3>fast</h3>
             </div>
             <div id='about-icons'>
-              <i class="material-icons">
-                touch_app
-                </i>
+              <i class="material-icons">touch_app</i>
                 <h3>responsive</h3>
             </div>
             <div id='about-icons'>
-              <i class="material-icons">
-                offline_bolt
-                </i>
+              <i class="material-icons">offline_bolt</i>
                 <h3>dynamic</h3>
             </div>
             <div id='bar-section'>

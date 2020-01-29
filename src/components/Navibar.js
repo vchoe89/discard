@@ -5,14 +5,14 @@ class Navibar extends React.Component{
 
   render(){
     return(
-      <div id='nav-bar'>
-      <Navbar fixed='top' sticky='bottom'>
+      <Navbar sticky="top">
+        <div id='headlines'>
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="projects">Projects</Nav.Link>
             <Nav.Link href="blog">Blog</Nav.Link>
             <Nav.Link href="contact">Contact</Nav.Link>
+            </div>
       </Navbar>
-      </div>
     )
   }
 }
