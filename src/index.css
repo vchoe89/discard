@@ -21,12 +21,10 @@ code {
   padding-right: 40px;
 }
 
-
 #headlines{
   text-align: center;
 }
 
-#material-icons{
-  height: 50px !important;
-  width: 50px !important;
+.material-icons{
+  font-size: 70px;
 }
