@@ -25,3 +25,8 @@ code {
 #headlines{
   text-align: center;
 }
+
+#material-icons{
+  height: 50px !important;
+  width: 50px !important;
+}
