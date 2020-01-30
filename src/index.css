@@ -28,8 +28,12 @@ code {
   padding-right: 60px;
 }
 
-#bar-section{
+#icon-section{
+  text-align: center;
+}
 
+#icon-desc{
+  font-size: 20px;
 }
 
 .nav-link{
