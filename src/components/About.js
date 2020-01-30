@@ -10,23 +10,25 @@ class About extends React.Component{
         <h1 id='headlines'>About</h1>
         <h2 id='welcome-header'>Welcome! My Name is Victor Choe.</h2>
         <h2 id='welcome-header'>I am a Full Stack Developer.</h2>
+
           <div id='icon-section'>
-            <div id='about-icons'>
+            <div id='about-icons1'>
               <i class="material-icons">speed</i>
-                <h3>fast</h3>
+                <h3 id='secondary-header'>fast</h3>
             </div>
-            <div id='about-icons'>
+            <div id='about-icons2' >
               <i class="material-icons">touch_app</i>
-                <h3>responsive</h3>
+                <h3 id='secondary-header'>responsive</h3>
             </div>
-            <div id='about-icons'>
+            <div id='about-icons3'>
               <i class="material-icons">offline_bolt</i>
-                <h3>dynamic</h3>
+                <h3 id='secondary-header'>dynamic</h3>
             </div>
+          </div>
+
             <div id='bar-section'>
               <h2 id='bar-names'>Ruby/Rails</h2>
               <ProgressBar animated now={50} />
-            </div>
             <div id='bar-section'>
               <h2 id='bar-names'>JavaScript</h2>
               <ProgressBar animated now={50} />

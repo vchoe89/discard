@@ -16,6 +16,18 @@ code {
   padding-top: 5px;
 }
 
+#about-icons2{
+  float: left;
+}
+
+#about-icons1{
+  float: left;
+}
+
+#bar-section{
+
+}
+
 .nav-link{
   padding-left: 40px;
   padding-right: 40px;
@@ -27,4 +39,8 @@ code {
 
 .material-icons{
   font-size: 70px;
+}
+
+#secondary-header{
+  font-size: 30px;
 }
