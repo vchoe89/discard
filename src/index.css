@@ -52,3 +52,12 @@ code {
 #secondary-header{
   font-size: 30px;
 }
+
+#bar-section{
+  width: 600px;
+
+}
+
+#secondary-header{
+  margin-top: 0px;
+}
