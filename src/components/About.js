@@ -15,14 +15,17 @@ class About extends React.Component{
             <div id='about-icons1'>
               <i class="material-icons">speed</i>
                 <h3 id='secondary-header'>fast</h3>
+                  <p>Fast load times and high speed interaction.</p>
             </div>
             <div id='about-icons2' >
               <i class="material-icons">touch_app</i>
                 <h3 id='secondary-header'>responsive</h3>
+                  <p>Layouts that work with any platform, big or small.</p>
             </div>
             <div id='about-icons3'>
               <i class="material-icons">offline_bolt</i>
                 <h3 id='secondary-header'>dynamic</h3>
+                  <p>Interactive websites that come to life.</p>
             </div>
           </div>
 

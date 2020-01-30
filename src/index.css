@@ -18,10 +18,14 @@ code {
 
 #about-icons2{
   float: left;
+  padding-left: 60px;
+  padding-right:60px;
 }
 
 #about-icons1{
   float: left;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 #bar-section{
