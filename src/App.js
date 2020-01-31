@@ -14,7 +14,7 @@ import Blogs from './components/Blogs.js'
 function App() {
   return (
     <React.Fragment>
-      <Navibar />
+      <Navibar sticky="top"/>
       <Welcome />
       <About />
       <Projects />

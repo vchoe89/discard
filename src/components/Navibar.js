@@ -5,7 +5,7 @@ class Navibar extends React.Component{
 
   render(){
     return(
-      <Navbar sticky="top">
+      <Navbar >
         <div id='headlines'>
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="projects">Projects</Nav.Link>
