@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
 import Callback from '../images/callback-blog.png'
 import Security from '../images/security-blog.png'
 
@@ -8,13 +8,15 @@ class Blogs extends React.Component{
     return(
       <div>
       <h1 id='headlines'>Blogs</h1>
-        <Card>
-          <Card.Img variant='top' src={Callback} />
+      <CardDeck>
+        <Card id='callback'>
+          <Card.Img  variant='top' src={Callback} />
         </Card>
-        <Card>
-          <Card.Img variant='top' src={Security} />
+        <Card id='security'>
+          <Card.Img  variant='top' src={Security} />
         </Card>
-      </div>
+      </CardDeck>
+    </div>
     )
   }
 }

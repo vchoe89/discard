@@ -66,3 +66,9 @@ code {
   height: 200px;
   width: 400px;
 }
+
+
+#callback{
+  float: left;
+  padding-right: 20px;
+}
