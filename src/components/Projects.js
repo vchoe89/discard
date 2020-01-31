@@ -11,7 +11,6 @@ class Projects extends React.Component{
             <Card.Img variant="top" src={Academia} />
             <Card.Header>Project 1</Card.Header>
               <Card.Title>Primary Card Title</Card.Title>
-
           </Card>
       </div>
 
