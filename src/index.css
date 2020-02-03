@@ -60,7 +60,7 @@ code {
 
 #bar-section{
   width: 600px;
-
+  float: right;
 }
 
 #secondary-header{
