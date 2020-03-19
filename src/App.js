@@ -10,6 +10,7 @@ import Blogs from './components/Blogs.js'
 
 function App() {
   return (
+    <Router>
     <React.Fragment>
       <Navibar />
       <Welcome />
@@ -17,7 +18,7 @@ function App() {
       <Projects />
       <Blogs />
     </React.Fragment>
-
+    </Router>
   );
 }
 
