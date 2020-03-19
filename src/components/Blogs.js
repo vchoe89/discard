@@ -9,12 +9,16 @@ class Blogs extends React.Component{
       <div>
       <h1 id='headlines'>Blogs</h1>
       <CardDeck>
-        <Card id='callback'>
-          <Card.Img  variant='top' src={Callback} />
-        </Card>
-        <Card id='security'>
-          <Card.Img  variant='top' src={Security} />
-        </Card>
+        <a href='https://medium.com/@vchoe89/javascript-callbacks-explained-d32020cd36f6'>
+          <Card id='callback'>
+            <Card.Img  variant='top' src={Callback} />
+          </Card>
+        </a>
+        <a href='https://medium.com/@vchoe89/understanding-security-protocols-69e449f2361a'>
+          <Card id='security'>
+            <Card.Img  variant='top' src={Security} />
+          </Card>
+        </a>
       </CardDeck>
     </div>
     )
