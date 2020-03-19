@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
 import Welcome from './components/Welcome.js'
@@ -11,13 +12,10 @@ import Blogs from './components/Blogs.js'
 function App() {
   return (
     <Router>
-    <React.Fragment>
       <Navibar />
-      <Welcome />
-      <About />
-      <Projects />
-      <Blogs />
-    </React.Fragment>
+      <Switch>
+        <Route exact path='/about' component={About} />
+      </Switch>
     </Router>
   );
 }
