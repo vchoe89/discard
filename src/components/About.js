@@ -34,6 +34,7 @@ class About extends React.Component{
           </div>
 
           <div id='bar-section'>
+            <h2>Technical Abilities</h2>
               <div>
                 <h2 id='bar-names'>Ruby/Rails</h2>
                 <ProgressBar animated now={50} />
@@ -55,6 +56,14 @@ class About extends React.Component{
               </div>
               <div>
                 <h2 id='bar-names'>Redux</h2>
+                <ProgressBar animated now={50} />
+              </div>
+              <div>
+                <h2 id='bar-names'>React-Hooks</h2>
+                <ProgressBar animated now={50} />
+              </div>
+              <div>
+                <h2 id='bar-names'>RESTful API</h2>
                 <ProgressBar animated now={50} />
               </div>
             </div>
