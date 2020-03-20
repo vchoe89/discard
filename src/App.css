@@ -21,8 +21,16 @@
   color: #09d3ac;
 }
 
-.nav-link{
+.nav-link a {
+  font-size: 30px !important;
+  font-family: Georgia !important;
+
+}
+
+#navlink-link{
+  font-family: Georgia;
   font-size: 30px;
+  padding: 50px;
 }
 
 #nav-bar{
@@ -48,6 +56,7 @@
   float: right;
   padding-right: 100px;
   margin-right: 100px;
+  font-family: Georgia;
 }
 
 
