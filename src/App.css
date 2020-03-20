@@ -31,6 +31,7 @@
   transform: translatex(-50%);
 }
 
+
 #headlines{
   text-align: center;
   color: black;
@@ -43,6 +44,10 @@
   text-align: center;
 }
 
+#bar-section{
+  float: right;
+  padding-right: 100px;
+}
 
 
 .welcome-page{
