@@ -62,6 +62,19 @@
 
 #icon-section{
   font-family: Georgia;
+  display: flex;
+}
+
+#fast{
+  padding: 20px;
+}
+
+#responsive{
+  padding: 20px;
+}
+
+#dynamic{
+  padding: 20px;
 }
 
 #secondary-header-fast{
@@ -80,6 +93,11 @@
   font-size: 35px;
   font-weight: bold;
   margin-top: 0px;
+}
+
+#tech-abilities{
+  font-size: 40px;
+
 }
 
 .welcome-page{

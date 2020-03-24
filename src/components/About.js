@@ -13,19 +13,19 @@ class About extends React.Component{
 
           <div id='icon-section'>
 
-            <div id='about-icons1'>
+            <div id='fast'>
               <i class="material-icons">speed</i>
                 <h3 id='secondary-header-fast'>fast</h3>
                   <p id='icon-desc'>Fast load times and high speed interaction.</p>
             </div>
 
-            <div id='about-icons2' >
+            <div id='responsive'>
               <i class="material-icons">touch_app</i>
                 <h3 id='secondary-header-resp'>responsive</h3>
                   <p id='icon-desc'>Layouts that work with any platform, big or small.</p>
             </div>
 
-            <div id='about-icons3'>
+            <div id='dynamic'>
               <i class="material-icons">offline_bolt</i>
                 <h3 id='secondary-header-dyn'>dynamic</h3>
                   <p id='icon-desc'>Interactive websites that come to life.</p>
@@ -34,7 +34,7 @@ class About extends React.Component{
           </div>
 
           <div id='bar-section'>
-            <h2>Technical Abilities</h2>
+            <h2 id='tech-abilities'>Technical Abilities</h2>
               <div>
                 <h2 id='icon-bars'>Ruby/Rails</h2>
                 <ProgressBar animated now={50} />
