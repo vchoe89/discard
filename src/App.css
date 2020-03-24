@@ -60,6 +60,15 @@
   -webkit-transform:scale(0.8);
 }
 
+#icon-section{
+  font-family: Georgia;
+}
+
+#secondary-header-fast{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 0px;
+}
 
 .welcome-page{
   background-image: url("https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
