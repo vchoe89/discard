@@ -7,10 +7,10 @@ class Navibar extends React.Component{
     return(
       <Navbar >
         <div id='navibar'>
-            <a id='navlink-link'>About</a>
-              <a id='navlink-link'>Projects</a>
-                <a id='navlink-link'>Blogs</a>
-                  <a id='navlink-link'>Contact</a>
+            <a id='navlink-link' href="/about">About</a>
+              <a id='navlink-link' href='/projects'>Projects</a>
+                <a id='navlink-link' href='/blogs'>Blogs</a>
+                  <a id='navlink-link' href='/contact'>Contact</a>
             </div>
       </Navbar>
     )
