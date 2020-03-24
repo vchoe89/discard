@@ -35,7 +35,7 @@ class About extends React.Component{
 
           <div id='bar-section'>
             <h2 id='tech-abilities'>Technical Abilities</h2>
-              <div>
+              <div id='tech-bars'>
                 <h2 id='icon-bars'>Ruby/Rails</h2>
                 <ProgressBar animated now={50} />
               <div>
