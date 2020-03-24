@@ -70,6 +70,18 @@
   margin-top: 0px;
 }
 
+#secondary-header-resp{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#secondary-header-dyn{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
 .welcome-page{
   background-image: url("https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   position: absolute;
