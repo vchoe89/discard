@@ -13,7 +13,7 @@ import Contact from './components/Contact.js'
 function App() {
   return (
     <Router>
-      <Navibar />
+      <Navibar sticky='top'/>
       <Switch>
         <Route  path='/about' component={About} />
         <Route exact path='/projects' component={Projects} />

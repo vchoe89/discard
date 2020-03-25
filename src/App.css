@@ -33,11 +33,15 @@
   padding: 50px;
 }
 
-#nav-bar{
+#navibar{
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+  overflow: hidden;
 }
+
+
+
 
 
 #headlines{
@@ -114,4 +118,15 @@
 
 #tech-bars{
   padding-left: 15px;
+}
+
+#about__container{
+  position: relative;
+}
+
+#wallpaper{
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  display: block;
 }

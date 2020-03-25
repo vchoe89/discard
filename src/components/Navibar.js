@@ -5,7 +5,7 @@ class Navibar extends React.Component{
 
   render(){
     return(
-      <Navbar >
+      <Navbar bg='dark' variant='dark' >
         <div id='navibar'>
             <a id='navlink-link' href="/about">About</a>
               <a id='navlink-link' href='/projects'>Projects</a>
