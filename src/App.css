@@ -55,6 +55,18 @@ margin-bottom: 0;
 #welcome-header{
   font-family: Georgia;
   text-align: center;
+  background-color: black;
+  opacity: .8;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+#welcome-header h2{
+  font-size: 40px;
+  color: white;
+  margin-top: 0;
 }
 
 #bar-section{

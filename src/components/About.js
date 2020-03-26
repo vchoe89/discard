@@ -11,8 +11,11 @@ class About extends React.Component{
         <div id='about__container'>
             <div>
               <h1 id='headlines'>About</h1>
-              <h2 id='welcome-header'>Welcome! My Name is Victor Choe.</h2>
-              <h2 id='welcome-header'>I am a Full Stack Developer.</h2>
+              <div id='welcome-header'>>
+                <h2> Welcome! My Name is Victor Choe.</h2>
+                <h2>I am a Full Stack Developer.</h2>
+              </div>
+
             </div>
 
             <div id='icon-section'>
