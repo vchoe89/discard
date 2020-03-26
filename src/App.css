@@ -47,7 +47,8 @@ margin-bottom: 0;
 #headlines{
   text-align: center;
   color: black;
-  font-family: Georgia;
+  font-family: 'Baloo 2', cursive;
+  font-size: 8vh;
 }
 
 
@@ -66,7 +67,10 @@ margin-bottom: 0;
 
 #icon-section{
   font-family: Georgia;
+  position: relative;
   display: flex;
+  text-align: center;
+
 }
 
 #fast{
@@ -114,6 +118,7 @@ margin-bottom: 0;
 
 .material-icons{
   white-space: nowrap;
+
 }
 
 #tech-bars{
