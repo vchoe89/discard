@@ -19,6 +19,9 @@ class About extends React.Component{
             </div>
 
             <div id='icon-section'>
+              <div id='hexagon-wrapper'>
+                <div id='hexagon'></div>
+              </div>
               <div id='fast'>
                 <div>
                   <i class="material-icons">speed</i>

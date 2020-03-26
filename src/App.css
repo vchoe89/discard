@@ -24,15 +24,13 @@
 .nav-link a {
   font-size: 30px !important;
   font-family: Georgia !important;
-
 }
 
 #navlink-link{
-  font-family: Georgia;
-  font-size: 25px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 35px;
   padding: 50px;
 }
-
 
 #full-navbar{
   background: #ff4b1f;  /* fallback for old browsers */
@@ -41,16 +39,12 @@ background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, F
 margin-bottom: 0;
 }
 
-
-
-
 #headlines{
   text-align: center;
   color: black;
   font-family: 'Baloo 2', cursive;
   font-size: 8vh;
 }
-
 
 #welcome-header{
   font-family: 'Baloo 2', cursive;
@@ -62,6 +56,7 @@ margin-bottom: 0;
   border-radius: 10px;
   margin-top: 0;
 }
+
 
 #welcome-header h2{
   font-size: 50px;
@@ -87,6 +82,19 @@ margin-bottom: 0;
   margin: 0 auto;
 }
 
+#hexagon-wrapper{
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+#hexagon{
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+}
+
 #fast{
   padding: 20px;
   padding-left: 50px;
@@ -105,8 +113,6 @@ margin-bottom: 0;
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-
-
 }
 
 #secondary-header-fast{
@@ -142,7 +148,6 @@ margin-bottom: 0;
 
 .material-icons{
   white-space: nowrap;
-
 }
 
 #tech-bars{
