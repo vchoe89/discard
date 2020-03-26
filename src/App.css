@@ -53,7 +53,7 @@ margin-bottom: 0;
 
 
 #welcome-header{
-  font-family: Georgia;
+  font-family: 'Baloo 2', cursive;
   text-align: center;
   background-color: black;
   opacity: .8;
@@ -64,7 +64,8 @@ margin-bottom: 0;
 }
 
 #welcome-header h2{
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: bold;
   color: white;
   margin-top: 0;
 }
