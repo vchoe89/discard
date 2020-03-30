@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: #ff4b1f;
+  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
+  background: linear-gradient(to right, #ff9068, #ff4b1f);
 }
 
 .App-logo {
@@ -44,6 +47,7 @@ margin-bottom: 0;
   color: black;
   font-family: 'Baloo 2', cursive;
   font-size: 8vh;
+  margin: 0;
 }
 
 #welcome-header{
@@ -160,9 +164,19 @@ margin-bottom: 0;
   background: linear-gradient(to right, #ff9068, #ff4b1f);
 }
 
+#projects{
+  background: #ff4b1f;
+  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
+  background: linear-gradient(to right, #ff9068, #ff4b1f);
+}
+
 #wallpaper{
   position: absolute;
   height: 80vh;
   width: 100%;
   display: block;
+}
+
+#multipage-container{
+  padding-left: 150px;
 }
