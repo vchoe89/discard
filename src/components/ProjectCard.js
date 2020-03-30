@@ -10,11 +10,11 @@ const ProjectCard = () => {
       <h1 id='headlines'>Projects</h1>
       <div id='multipage-container'>
         <div id='project-cards'>
-          <Card>
+          <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={Academia} />
             <Card.Body>
-              <h3 className='card-title'>Academia</h3>
-              <Card.Text>Some text here</Card.Text>
+              <h2 className='card-title'>Academia</h2>
+              <Card.Text>A simple to use web application that connects parents and tutors/coaches in their local areas</Card.Text>
             </Card.Body>
           </Card>
         </div>

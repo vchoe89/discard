@@ -184,5 +184,14 @@ margin-bottom: 0;
 
 .card{
   background-color: white;
-  width: 400px;
+  width: 400px !important;
+  border: 2px solid;
+  border-color: grey;
+  border-radius: 15px;
+}
+
+.card-img-top{
+  width: 396.01px;
+  border-radius: 15px;
+
 }
