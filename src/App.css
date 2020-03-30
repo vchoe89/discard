@@ -168,6 +168,7 @@ margin-bottom: 0;
   background: #ff4b1f;
   background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
   background: linear-gradient(to right, #ff9068, #ff4b1f);
+  height: 100vh;
 }
 
 #wallpaper{
@@ -179,4 +180,8 @@ margin-bottom: 0;
 
 #multipage-container{
   padding-left: 150px;
+}
+
+.card{
+  border: 2px;
 }
