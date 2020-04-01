@@ -13,9 +13,9 @@ import Contact from './components/Contact.js'
 function App() {
   return (
     <Router>
-      <Welcome />
+      <Navibar />
       <Switch>
-        <Navibar />
+        <Route exact path='/' component={Welcome} />
         <Route  path='/about' component={About} />
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/blogs' component={Blogs} />
