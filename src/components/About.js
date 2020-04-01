@@ -17,7 +17,6 @@ class About extends React.Component{
               </div>
 
             </div>
-
             <div id='icon-section'>
 
               <div id='fast'>

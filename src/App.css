@@ -1,8 +1,15 @@
 .App {
   text-align: center;
-  background: #ff4b1f;
-  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
-  background: linear-gradient(to right, #ff9068, #ff4b1f);
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#root{
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .App-logo {
@@ -32,7 +39,6 @@
   margin: 50px;
   color: white;
   font-weight: bold;
-  transition: all .2s;
 }
 
 #navlink-link:hover + div{
@@ -41,10 +47,8 @@
 
 
 #full-navbar{
-  background: #ff4b1f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  margin-bottom: 0;
+
+margin-bottom: 0;
 }
 
 #headlines{
@@ -151,24 +155,19 @@
 }
 
 .material-icons{
-  white-space: nowrap;
+  color: white;
 }
+
 
 #tech-bars{
   padding-left: 15px;
 }
 
 #about-page{
-  background: #ff4b1f;
-  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
-  background: linear-gradient(to right, #ff9068, #ff4b1f);
 }
 
 #projects{
-  background: #ff4b1f;
-  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
-  background: linear-gradient(to right, #ff9068, #ff4b1f);
-  height: 100vh;
+
 }
 
 #wallpaper{
