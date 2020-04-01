@@ -6,6 +6,7 @@ class Navibar extends React.Component{
   render(){
     return(
       <Navbar id='full-navbar'>
+        <h2 id='nav-title'>Victor Choe</h2>
         <div id='navibar'>
           <a id='navlink-link' href="/about">About</a>
           <a id='navlink-link' href='/projects'>Projects</a>
