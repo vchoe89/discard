@@ -14,6 +14,7 @@ class About extends React.Component{
               <div id='welcome-header'>
                 <h2> Welcome! My Name is Victor Choe.</h2>
                 <h2>I am a Full Stack Developer.</h2>
+                <hr/>
                 <p id='tech-skills'> HTML/CSS | JavaScript | React | Redux | Ruby/Rails | SQL | JSON | AJAX | REST </p>
               </div>
             </div>
