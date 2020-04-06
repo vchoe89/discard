@@ -8,6 +8,7 @@ import Navibar from './components/Navibar.js'
 import Projects from './components/Projects.js'
 import Blogs from './components/Blogs.js'
 import Contact from './components/Contact.js'
+import Footer from './components/Footer.js'
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Route exact path='/blogs' component={Blogs} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
+
+      <Footer />
     </Router>
   );
 }

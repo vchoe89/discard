@@ -1,6 +1,6 @@
 import React from 'react'
 import Academia from '../images/academia.png'
-import { Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 
 
 const ProjectCard = () => {
@@ -16,6 +16,7 @@ const ProjectCard = () => {
               <h2 className='card-title'>Academia</h2>
               <Card.Text>A simple to use web application that connects parents and tutors/coaches in their local areas</Card.Text>
             </Card.Body>
+            <Button id='button'>Git</Button>
           </Card>
         </div>
       </div>

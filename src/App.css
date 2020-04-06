@@ -6,6 +6,7 @@
   background: #283048;
   background: -webkit-linear-gradient(to right, #859398, #283048);
   background: linear-gradient(to right, #859398, #283048);
+  height: 100vh;
 }
 
 .App-logo {
@@ -56,6 +57,7 @@
   font-family: 'Baloo 2', cursive;
   font-size: 8vh;
   margin-top: 50px;
+  font-weight: bold;
 }
 
 #welcome-header{
@@ -181,9 +183,15 @@
   border: 2px solid;
   border-color: grey;
   border-radius: 15px;
+  padding-bottom: 5px;
 }
 
 .card-img-top{
   width: 396.01px;
   border-radius: 15px;
+}
+
+#button{
+  width: 10vh;
+  margin-left: 10px;
 }
