@@ -140,9 +140,10 @@
 }
 
 #secondary-header{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 0px;
+  color: white;
 }
 
 
@@ -152,11 +153,15 @@
 }
 
 .material-icons{
-  color: white;
+  color: #7FFFD4;
 }
 
 #tech-bars{
   padding-left: 15px;
+}
+
+#icon-desc{
+  color: white;
 }
 
 #wallpaper{
