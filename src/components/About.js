@@ -13,7 +13,7 @@ class About extends React.Component{
               <h1 id='headlines'>About</h1>
               <div id='welcome-header'>
                 <h2>Victor Choe</h2>
-                <h2>Full Stack Developer.</h2>
+                <h2>Full Stack Developer</h2>
                 <hr/>
                 <p id='tech-skills'> JavaScript | React | Redux | Ruby/Rails | HTML/CSS | SQL | JSON | AJAX | REST </p>
               </div>

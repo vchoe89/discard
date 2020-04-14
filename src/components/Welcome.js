@@ -13,7 +13,7 @@ class Welcome extends React.Component {
       <div className='welcome-page'>
         <div id='welcome-container'>
           <h1 id='welcome-title' >Welcome</h1>
-          <NavLink id='welcome-button' to='/about'>Click Here To Get Started</NavLink>
+          <NavLink id='welcome-button' to='/about'>Click Here To Learn More</NavLink>
         </div>
       </div>
       </React.Fragment>
