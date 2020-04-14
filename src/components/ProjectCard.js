@@ -16,7 +16,7 @@ const ProjectCard = () => {
               <h2 className='card-title'>Academia</h2>
               <Card.Text>A simple to use web application that connects parents and tutors/coaches in their local areas</Card.Text>
             </Card.Body>
-              <a id='button' href='https://www.google.com' target='_blank'className='btn btn-primary'>Git</a>
+              <a id='button' href='https://github.com/vchoe89/academia' target='_blank'className='btn btn-primary'>Git</a>
           </Card>
         </div>
       </div>

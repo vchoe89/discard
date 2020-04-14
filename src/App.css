@@ -181,9 +181,10 @@
   background-color: white;
   width: 400px !important;
   border: 2px solid;
-  border-color: grey;
+  border-color: blue;
   border-radius: 15px;
   padding-bottom: 5px;
+
 }
 
 .card-img-top{
@@ -194,4 +195,15 @@
 #button{
   width: 10vh;
   margin-left: 10px;
+}
+.card-title{
+  font-family: 'Baloo 2', cursive;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.card-text{
+  font-family: 'Baloo 2', cursive;
+  font-size: 17px;
+  padding-left: 2px;
 }
