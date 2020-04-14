@@ -11,8 +11,10 @@ class Welcome extends React.Component {
     return(
       <React.Fragment>
       <div className='welcome-page'>
-        <h1 id='welcome-title' >Welcome</h1>
-        <NavLink to='/about'>Click Here</NavLink>
+        <div id='welcome-container'>
+          <h1 id='welcome-title' >Welcome</h1>
+          <NavLink id='welcome-button' to='/about'>Click Here To Get Started</NavLink>
+        </div>
       </div>
       </React.Fragment>
     )

@@ -207,3 +207,30 @@
   font-size: 17px;
   padding-left: 2px;
 }
+
+#welcome-container{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#welcome-title{
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+  font-style: italic;
+  color: white;
+}
+
+#welcome-button{
+  text-align: center;
+  border-color: white;
+  font-size: 40px;
+  color: white;
+  border: 2px solid white;
+  padding-left: 5px;
+  padding-right: 10px;
+  font-family: 'Baloo 2', cursive;
+  font-style: italic;
+}
