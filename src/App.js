@@ -11,21 +11,36 @@ import Contact from './components/Contact.js'
 import Footer from './components/Footer.js'
 
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      isNavbarHidden: false
+    }
+  }
+
+  handleClick = (e) => {
+    e.preventDefault()
+    console.log("click");
+  }
+
+  render() {
   return (
     <Router>
-      <Navibar />
+      { (this.state.isNavbarHidden === false ? null : <Navibar />)}
       <Switch>
-        <Route exact path='/' component={Welcome} />
-        <Route  path='/about' component={About} />
+        <Route exact path='/' render={(props) => {
+            return <Welcome isNavbarHidden={this.state.isNavbarHidden} handleClick={this.handleClick}/>
+          }} />
+        <Route exact path='/about' component={About}/>
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/blogs' component={Blogs} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
-
       <Footer />
     </Router>
-  );
+    );
+  }
 }
 
 export default App;
