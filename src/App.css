@@ -123,16 +123,12 @@
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  height: 100px;
-  width: 50%;
 }
 
 #responsive{
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-
-
 }
 
 #dynamic{
@@ -165,6 +161,7 @@
 #icon-desc{
   color: white;
 }
+
 
 #wallpaper{
   position: absolute;
@@ -209,10 +206,10 @@
 }
 
 #welcome-container{
-  margin: auto;
   width: 50%;
   text-align: center;
   padding-top: 100px;
+  position: absolute;
 }
 
 #welcome-title{
@@ -220,7 +217,7 @@
   text-align: center;
   font-family: 'Baloo 2', cursive;
   font-style: italic;
-  color: white;
+  color: blue;
 }
 
 #welcome-button{
@@ -233,4 +230,19 @@
   padding-right: 10px;
   font-family: 'Baloo 2', cursive;
   font-style: italic;
+  text-decoration: none;
+}
+
+#about__container{
+  height: 100%;
+  position: relative;
+}
+
+#welcome-image{
+  opacity: 0.2;
+  object-fit: cover;
+}
+
+#welcome-page{
+  position: relative;
 }
