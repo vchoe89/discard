@@ -16,7 +16,7 @@ class Welcome extends React.Component {
           <img id='welcome-image' src='https://southafricatoday.net/wp-content/uploads/2018/10/1_-xlCG5r86ocNFhC5iE658A.jpeg' />
           <div id='welcome-container'>
               <h1 id='welcome-title' >Welcome</h1>
-              <NavLink onClick={() => this.props.handleClick} id='welcome-button' to='/about'>Click Here To Learn More</NavLink>
+              <NavLink id='welcome-button' to='/about'>Click Here To Learn More</NavLink>
           </div>
         </div>
       </React.Fragment>

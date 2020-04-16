@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 import './App.css';
 import Welcome from './components/Welcome.js'
 import About from './components/About.js'
@@ -21,13 +21,13 @@ class App extends React.Component {
 
   handleClick = (e) => {
     e.preventDefault()
-    console.log("click");
+    this.setState({isNavbarHidden: !this.state.isNavbarHidden})
   }
 
   render() {
   return (
     <Router>
-      { (this.state.isNavbarHidden === false ? null : <Navibar />)}
+      <Navibar />
       <Switch>
         <Route exact path='/' render={(props) => {
             return <Welcome isNavbarHidden={this.state.isNavbarHidden} handleClick={this.handleClick}/>
@@ -44,3 +44,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+// { (this.state.isNavbarHidden === false ? null : <Navibar />)}

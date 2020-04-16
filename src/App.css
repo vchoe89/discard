@@ -206,10 +206,10 @@
 }
 
 #welcome-container{
-  width: 50%;
   text-align: center;
-  padding-top: 100px;
   position: absolute;
+  margin-top: -1000px;
+  padding-left: 400px;
 }
 
 #welcome-title{
@@ -239,10 +239,16 @@
 }
 
 #welcome-image{
-  opacity: 0.2;
+  /* opacity: 0.2; */
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 #welcome-page{
   position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit:
+
 }
