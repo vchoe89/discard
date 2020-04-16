@@ -207,9 +207,9 @@
 
 #welcome-container{
   text-align: center;
-  position: absolute;
-  margin-top: -1000px;
-  padding-left: 400px;
+  position: fixed;
+  margin-top: -400px;
+  margin-left: 700px;
 }
 
 #welcome-title{
@@ -217,7 +217,7 @@
   text-align: center;
   font-family: 'Baloo 2', cursive;
   font-style: italic;
-  color: blue;
+  color: white;
 }
 
 #welcome-button{
@@ -239,16 +239,16 @@
 }
 
 #welcome-image{
-  /* opacity: 0.2; */
+  opacity: 0.2;
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 50vh;
 }
 
 #welcome-page{
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 100%;
-  object-fit:
+  height: 100vh;
+  object-fit: cover;
 
 }
